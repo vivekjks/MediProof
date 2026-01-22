@@ -101,11 +101,7 @@ MediProof enables **selective disclosure** of health facts using **zero-knowledg
 - **Aleo** - Privacy-first L1 blockchain
 - **Leo** - Aleo's programming language for ZK circuits
 - **Puzzle Wallet** - Aleo wallet integration
-
-### Storage
-- **Pinata/IPFS** - Decentralized document storage
-- **Aleo Records** - Private on-chain data storage
-
+ 
 ## Getting Started
 
 ### Prerequisites
@@ -141,40 +137,7 @@ The MediProof smart contract is written in Leo and deployed on Aleo testnet.
 mediproof_9126.aleo
 ```
 
-### Records
-
-```leo
-record PatientProfile {
-    owner: address,
-    patient_id: field,
-    blood_group: u8,      // 0-7 representing blood types
-    diabetic: bool,
-    hypertensive: bool,
-    last_checkup: u64,
-    document_hash: field,
-    is_active: bool,
-}
-
-record AccessRequest {
-    owner: address,
-    request_id: field,
-    requester: address,
-    patient: address,
-    proof_type: u8,
-    expires_at: u64,
-    is_pending: bool,
-}
-
-record HealthProof {
-    owner: address,
-    proof_id: field,
-    patient: address,
-    proof_type: u8,
-    result: bool,
-    generated_at: u64,
-    verifier: address,
-}
-```
+ 
 
 ### Key Functions
 
