@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" fill="none">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d9ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d9ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <path d="M25 5L8 12v12c0 11.598 7.658 22.419 17 25.5 9.342-3.081 17-13.902 17-25.5V12L25 5z" fill="url(#logoGrad)"/>
+  <path d="M25 10L14 15v9c0 7.765 5.105 14.946 11 17V10z" fill="#0a0a0f" opacity="0.3"/>
+  <path d="M23 19h4v3h-4v4h-3v-4h-4v-3h4v-4h3v4z" fill="white"/>
+  <text x="55" y="34" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="700" fill="url(#textGrad)">MediProof</text>
+</svg>

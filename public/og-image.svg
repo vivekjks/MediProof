@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#12121a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d9ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d9ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  <circle cx="200" cy="150" r="300" fill="#00d9ff" opacity="0.05"/>
+  <circle cx="1000" cy="500" r="350" fill="#7c3aed" opacity="0.05"/>
+  <path d="M540 200L490 220v30c0 34.64 22.87 66.84 50 76.5 27.13-9.66 50-41.86 50-76.5v-30L540 200z" fill="url(#shieldGrad)"/>
+  <path d="M540 215L510 227v22.5c0 23.28 15.32 44.73 30 51.25V215z" fill="#0a0a0f" opacity="0.3"/>
+  <path d="M534 240h12v9h-12v12h-9v-12h-12v-9h12v-12h9v12z" fill="white"/>
+  <text x="600" y="260" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="700" fill="url(#titleGrad)">MediProof</text>
+  <text x="600" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="#a0a0b0">Prove Health Facts. Reveal Nothing.</text>
+  <text x="600" y="420" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#666680">Privacy-first medical verification using zero-knowledge proofs on Aleo</text>
+  <rect x="600" y="480" width="200" height="50" rx="25" fill="url(#shieldGrad)"/>
+  <text x="700" y="512" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#0a0a0f" text-anchor="middle">Get Started</text>
+</svg>
