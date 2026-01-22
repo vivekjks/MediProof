@@ -131,24 +131,7 @@ cp .env.example .env
 bun dev
 ```
 
-### Environment Variables
-
-```env
-# Aleo Configuration
-NEXT_PUBLIC_ALEO_NETWORK=testnet
-NEXT_PUBLIC_ALEO_RPC_URL=https://api.explorer.provable.com/v2
-NEXT_PUBLIC_PROGRAM_ID=mediproof_9126.aleo
-
-# Puzzle Wallet
-NEXT_PUBLIC_PUZZLE_WALLET_URL=https://puzzle.online
-
-# Pinata/IPFS (for document storage)
-NEXT_PUBLIC_PINATA_API_KEY=your_api_key
-NEXT_PUBLIC_PINATA_SECRET_API_KEY=your_secret_key
-NEXT_PUBLIC_PINATA_GATEWAY=https://gateway.pinata.cloud/ipfs/
-PINATA_JWT=your_jwt_token
-```
-
+ 
 ## Smart Contract
 
 The MediProof smart contract is written in Leo and deployed on Aleo testnet.
@@ -300,10 +283,7 @@ Contributions are welcome! Please read our contributing guidelines before submit
   <strong>Aleo WaveHack 2024</strong>
 </p>
 
-## License
-
-MIT License - see [LICENSE](LICENSE) for details.
-
+ 
 ---
 
 <p align="center">
